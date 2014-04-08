@@ -1,13 +1,16 @@
 .cell{
 	display: inline-block;
 	height: 160px;
-	width: 360px;
+	width: 80%;
+	float: left;
 	margin-top: 50px;
 }
+.leftcell{
+float: left;
+}
 
-
-body {
-	display: block;
+#body {
+	//*display: block;
 	background-color: white;
 	font: 16px/1.5 sans-serif;
 	width: 80%;
@@ -30,6 +33,7 @@ body {
 	margin: 10px auto;
 	font: 13px/1.5 sans-serif;
 	border-top: 1px solid #AAAAAA;
+	clear: both;
 }
 .terms{
 	display: inline-block;
@@ -39,9 +43,6 @@ body {
 	font: 13px/1.5 sans-serif;
 }
 
-a:hover {
-	font-weight: bold;
-}
 
 .left {
 	position: relative;
@@ -55,6 +56,7 @@ a:hover {
 
 .right {
 	text-align: right;
+	float: right;
 }
 
 
